@@ -1,0 +1,7 @@
+#slf4j config
+logging:
+  level:
+    com.itachi.ekart: DEBUG
+  pattern:
+    console: "[%-5p] [%d{dd HH:mm:ss}] [%F#%L] [%3C-%M] -%m%n"  #p priority, d{} date{formate}, F filename, L lineNo, C FullClass, M method, m msg, n newline
+    file: "[%-5p] [%d{dd HH:mm:ss}] [%F#%L] [%3C-%M] -%m%n"
