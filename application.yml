@@ -1,12 +1,3 @@
-spring:
-  datasource:
-    url: jdbc:h2:mem:itachi #jdbc url
-    platform: h2
-    #username: itachi
-    #password: itachi
-  h2:
-    console:
-      enabled: true
 
 #slf4j config
 logging:

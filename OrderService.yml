@@ -1,8 +1,8 @@
 server:
-  port: 5007
+  port: 5006
 spring:
   application:
-    name: PAYMENT-SERVICE
+    name: ORDER-SERVICE
   h2:
     console:
       enabled: true
