@@ -8,7 +8,7 @@ logging:
     file: "[%-5p] [%d{dd HH:mm:ss}] [%F#%L] [%3C-%M] -%m%n"
   file:
     path: ./SL4jLog/
-    name: log.txt
+    name: ekart.log
 
 
 
