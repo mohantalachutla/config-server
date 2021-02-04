@@ -13,3 +13,10 @@ spring:
     #url: jdbc:postgresql://localhost:3001/itachi
     #username: itachi
     #password: itachi
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:3001/ekart
+    username: itachi
+    password: itachi
+    pool-size: 30

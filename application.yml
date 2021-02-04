@@ -6,7 +6,9 @@ logging:
   pattern:
     console: "[%-5p] [%d{dd HH:mm:ss}] [%F#%L] [%3C-%M] -%m%n"  #p priority, d{} date{formate}, F filename, L lineNo, C FullClass, M method, m msg, n newline
     file: "[%-5p] [%d{dd HH:mm:ss}] [%F#%L] [%3C-%M] -%m%n"
-
+  file:
+    path: ./SL4jLog/
+    name: log.txt
 
 
 
@@ -15,6 +17,3 @@ management:
   endpoint:
     health:
       show-details: always
-  file:
-    path: ./SL4jLog/
-    name: log.txt

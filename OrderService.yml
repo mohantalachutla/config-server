@@ -3,13 +3,12 @@ server:
 spring:
   application:
     name: ORDER-SERVICE
-  h2:
-    console:
-      enabled: true
   datasource:
-    platform: h2
-    url: jdbc:h2:mem:itachi #can spcify login credentials here, lives at http://localhost:5004/h2-console
-    #platform: postgresql
-    #url: jdbc:postgresql://localhost:3001/itachi
-    #username: itachi
-    #password: itachi
+    url: jdbc:postgresql://localhost:3001/ekart
+    hikari:
+      jdbc-url: jdbc:postgresql://localhost:3001/ekart
+      username: itachi
+      password: itachi
+      pool-name: POSTGRES_DB
+      maximum-pool-size: 30
+      connection-timeout: 90000
