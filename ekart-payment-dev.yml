@@ -1,0 +1,17 @@
+server:
+  port: 5007
+
+spring:
+  jpa:
+    generate-ddl: true
+  h2:
+    console:
+      enabled: true
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:itachi #can spcify login credentials here, lives at http://localhost:5004/h2-console
+
+app:
+  datasource:
+    jdbc-url: jdbc:h2:mem:itachi
+    pool-size: 30

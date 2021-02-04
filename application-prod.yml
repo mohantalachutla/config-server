@@ -1,0 +1,12 @@
+# default profile
+
+#slf4j config
+logging:
+  level:
+    com.itachi.ekart: INFO
+  pattern:
+    console: "[%-5p] [%d{dd HH:mm:ss}] [%F#%L] [%3C-%M] -%m%n"  #p priority, d{} date{formate}, F filename, L lineNo, C FullClass, M method, m msg, n newline
+    file: "[%-5p] [%d{MM-dd HH:mm:ss}] [%F#%L] [%3C-%M] -%m%n"
+  file:
+    path: ./SL4jLog/
+    name: ${spring.application.name}.log

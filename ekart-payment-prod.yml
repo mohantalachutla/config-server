@@ -1,0 +1,13 @@
+server:
+  port: 5008
+
+spring:
+  jpa:
+    generate-ddl: true
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:3001/ekart
+    username: itachi
+    password: itachi
+    pool-size: 30

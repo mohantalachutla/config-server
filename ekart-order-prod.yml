@@ -1,0 +1,12 @@
+server:
+  port: 5006
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:3001/ekart
+    hikari:
+      jdbc-url: jdbc:postgresql://localhost:3001/ekart
+      username: itachi
+      password: itachi
+      pool-name: POSTGRES_DB
+      maximum-pool-size: 30
+      connection-timeout: 90000
